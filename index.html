@@ -8,13 +8,36 @@
         margin: 0;
         padding: 0; 
 		}
-		      /* Style the header */
-      h1 {
-        background-color: #8B0000;
-        color: black;
-        padding: 20px;
-        text-align: left;
-      }
+			  
+			  .navbar {
+		  background-color: #d9d9d9;
+		  color: #fff;
+		  font-size: 16px;
+		}
+
+		.navbar ul {
+		  list-style: none;
+		  margin: 0;
+		  padding: 0;
+		  display: flex;
+		}
+
+		.navbar img {
+		  height: 40px;
+		  margin: 0px 20px 0px;
+		}
+
+		.navbar li {
+		  font-family: sans-serif;
+		  color :#C20027;
+		  margin: 0px 5px 0px;
+		}
+
+		.navbar a {
+		  font-family: sans-serif;
+		  color :#C20027;
+		  text-decoration: none;
+		}
       
       /* Style the featured image */
       img {
@@ -33,6 +56,7 @@
       /* Style the list items */
       li {
         margin-bottom: 10px;
+
       }
       
       /* Style the contact link */
@@ -50,56 +74,74 @@
 	  .limited-line-length {
 		max-width: 120ch;
 		}
+		
+			  .bordered {
+		border: 1px solid black;
+		padding: 10px; /* Optional: Add some padding to the paragraph to create some space between the text and the border */
+		 background-color: #f2f2f2;
+	  }
+	  
+	  h2 {text-align: center;}
+	  p { padding: 5px 10px; }
+	  
+
     </style>
   </head>
   <body>
-    <h1>SHEILDWORKS</h1>
-    <p>Protect your phone in style with our wide selection of phone cases!</p>
+
+	<nav class="navbar">
+  <ul class="bordered">
+    <li><a href="#"><img src="img/Sheild.png" alt="Brand logo"></a></li>
+    <li class="bordered"><a href="index.html">Home</a></li>
+    <li class="bordered"><a href="#">About</a></li>
+    <li class="bordered"><a href="#">Contact</a></li>
+  </ul>
+</nav>
+    <p class="bordered">Protect your phone in style with our wide selection of phone cases!</p>
     
-    <h2>Types of Phone Cases</h2>
-    <ul>
-      <li><a href="">Hard cases</a></li>
-      <li><a href="">Soft cases</a></li>
-      <li><a href="">graphical cases</a></li>
-      <li><a href="">custom cases</a></li>
-      <li><a href="">sillicon cases (pre-order)</a></li>
+    <h1>Types of Phone Cases</h2>
+    <ul class="bordered-2" >
+      <button type="button" class="bordered"><a href="">Hard cases</a></button>
+      <button class="bordered"><a href="">Soft cases</a></button>
+      <button class="bordered"><a href="">graphical cases</a></button>
+      <button class="bordered"><a href="">custom cases</a></button>
+      <button class="bordered"><a href="">sillicon cases (pre-order)</a></button>
     </ul>
     
-    <h2>About our cases</h2>
-<p>
-</p>
+
     
     <h2>Featured Phone Case</h2>
-	<div style="text-align: left;"><img src="img/flexy_iphone.jpg" alt="Phone case"></div>
+	<div><img border="0" src="img/flexy_iphone.jpg" align="right" alt="Phone case"></div>
     
+
     <p class="limited-line-length">At Sheildworks, we're proud to offer phone cases that are truly superior to others on the market. Here's why:
 
-3D printed: Our phone cases are made using the latest 3D printing technology, which allows for unparalleled precision and 
-durability. This means that your phone will be protected from scratches, drops, and other everyday wear and tear.
-</p><p class="limited-line-length">
-Custom graphic design: We don't believe in a one-size-fits-all approach. That's why we offer a range of customizable 
-design options, so you can choose the perfect look for your phone. Whether you're looking for a bold statement or a 
-subtle accent, we've got you covered.
-</p><p class="limited-line-length">
-Robust: We understand that your phone is an investment, and you want to protect it as much as possible. That's why our 
-phone cases are built to last. With sturdy materials and a rugged design, you can rest easy knowing that your phone is 
-safe and secure.
-</p><p class="limited-line-length">
-Affordable: Quality shouldn't come at a premium. That's why we offer our phone cases at an affordable price point, without
- sacrificing on quality or style.
-</p><p class="limited-line-length">
-Unique: Our phone cases are not only durable and functional, but also unique and eye-catching. With a range of designs to 
-choose from, you can be sure that your phone will stand out from the crowd.
-</p><p class="limited-line-length">
-Small business: We're a small business, and we take pride in that fact. When you buy from us, you're not only getting a 
-great product, but also supporting a local, independent business.
-</p><p class="limited-line-length">
-Applicable to anyone: Our phone cases are suitable for anyone, whether you're a busy professional, a student, a parent,
- or anyone in between. With a range of designs and styles to choose from, there's something for everyone.
-</p><p class="limited-line-length">
-So why settle for a run-of-the-mill phone case? Choose [Your Business Name] for a superior, customizable, and affordable
- option that will keep your phone protected and stylish.</p>
-    
+	3D printed: Our phone cases are made using the latest 3D printing technology, which allows for unparalleled precision and 
+	durability. This means that your phone will be protected from scratches, drops, and other everyday wear and tear.
+	</p><p class="limited-line-length">
+	Custom graphic design: We don't believe in a one-size-fits-all approach. That's why we offer a range of customizable 
+	design options, so you can choose the perfect look for your phone. Whether you're looking for a bold statement or a 
+	subtle accent, we've got you covered.
+	</p><p class="limited-line-length">
+	Robust: We understand that your phone is an investment, and you want to protect it as much as possible. That's why our 
+	phone cases are built to last. With sturdy materials and a rugged design, you can rest easy knowing that your phone is 
+	safe and secure.
+	</p><p class="limited-line-length">
+	Affordable: Quality shouldn't come at a premium. That's why we offer our phone cases at an affordable price point, without
+	 sacrificing on quality or style.
+	</p><p class="limited-line-length">
+	Unique: Our phone cases are not only durable and functional, but also unique and eye-catching. With a range of designs to 
+	choose from, you can be sure that your phone will stand out from the crowd.
+	</p><p class="limited-line-length">
+	Small business: We're a small business, and we take pride in that fact. When you buy from us, you're not only getting a 
+	great product, but also supporting a local, independent business.
+	</p><p class="limited-line-length">
+	Applicable to anyone: Our phone cases are suitable for anyone, whether you're a busy professional, a student, a parent,
+	 or anyone in between. With a range of designs and styles to choose from, there's something for everyone.
+	</p><p class="limited-line-length">
+	So why settle for a run-of-the-mill phone case? Choose Sheildworks for a superior, customizable, and affordable
+	 option that will keep your phone protected and stylish.</p>
+
     <h2>Contact Us</h2>
     <p>Have questions or need help choosing the right phone case? Contact us at <a href="mailto:twopeko@gmail.com"> Shieldworks@gmail.com</a>.</p>
   </body>
